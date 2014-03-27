@@ -28,8 +28,7 @@ namespace VirtualVendingMachine
         {
             this.controller.Remove(this);
             base.OnClosing(e);
-        }
-        
+        }       
 
         public string CurrentValue
         {
